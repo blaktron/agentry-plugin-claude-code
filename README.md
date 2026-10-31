@@ -16,7 +16,7 @@ Then run `/agentry:setup`.
 - The Agentry CLI 0.6.63 or newer on `PATH`, or `AGENTRY_BIN` set to its
   absolute path in the environment Claude Code starts from. Install it from
   https://secureagentry.net/download.
-- Node 20 or newer on `PATH`.
+- Node 24 or newer on `PATH`.
 - Docker, for runs on this computer.
 
 ## What it adds
@@ -24,7 +24,7 @@ Then run `/agentry:setup`.
 - The `agentry` skill: how to find, verify, install and run QuickAgents with
   a preview you approve, and how to build your own.
 - Commands: `/agentry:find`, `/agentry:new`, `/agentry:run`, `/agentry:setup`, `/agentry:sign-in`.
-- The Agentry MCP server 0.6.999, bundled in `server/`, which drives the CLI.
+- The Agentry MCP server 0.6.1002, bundled in `server/`, which drives the CLI.
 
 Signing in stays in your terminal (`agentry login`); the plugin never sees
 your token. Documentation: https://docs.secureagentry.net/agentry/mcp/. Privacy: https://secureagentry.net/privacy.
