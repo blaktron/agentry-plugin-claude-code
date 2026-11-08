@@ -24,7 +24,7 @@ Then run `/agentry:setup`.
 - The `agentry` skill: how to find, verify, install and run QuickAgents with
   a preview you approve, and how to build your own.
 - Commands: `/agentry:find`, `/agentry:new`, `/agentry:run`, `/agentry:setup`, `/agentry:sign-in`.
-- The Agentry MCP server 0.7.0, bundled in `server/`, which drives the CLI.
+- The Agentry MCP server 0.7.16, bundled in `server/`, which drives the CLI.
 
 Signing in stays in your terminal (`agentry login`); the plugin never sees
 your token. Documentation: https://docs.secureagentry.net/agentry/mcp/. Privacy: https://secureagentry.net/privacy.
